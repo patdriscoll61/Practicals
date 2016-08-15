@@ -1,9 +1,15 @@
 """ Patrick Driscoll """
-name = input("Enter name: ")
-while not name:
+def main():
+
+    name = get_name()
+    print(name[1:len(name):2])
+
+
+def get_name():
     name = input("Enter name: ")
-count = 0
-for char in name:
-    count += 1
-    if count % 2 == 0:
-        print(char)
+    while not name:
+        name = input("Enter name: ")
+    return name
+
+
+main()

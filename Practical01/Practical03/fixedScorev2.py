@@ -6,10 +6,10 @@ Modified using refactoring to make a function
 
 def main():
     score = get_score()
-    print(get_result(score))
+    print(score_to_result(score))
 
 
-def get_result(score):
+def score_to_result(score):
     if score < 0 or score > 100:
         return "Invalid score"
     elif score > 90:
@@ -23,7 +23,7 @@ def get_score():
     valid_input = False
     while not valid_input:
         try:
-            entered_score = float(input("Enter score: "))
+            entered_score = int(input("Enter score: "))
             valid_input = True
             return entered_score
         except ValueError:

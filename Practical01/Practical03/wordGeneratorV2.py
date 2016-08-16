@@ -23,7 +23,7 @@ def main():
             for i in range(1,word_format_length+1):
                 word_format += random.choice(CONSONANTS+VOWELS+"%#*")
         while not is_entry_ok:
-            is_entry_ok = check_entry(word_format)
+            is_entry_ok = is_valid_format(word_format)
             if not is_entry_ok:
                 word_format = input("Enter word format (% = consontant, # = vowel ! to Exit): ").lower()
         if EXIT_CHAR not in word_format:
@@ -39,10 +39,9 @@ def main():
                     word += kind
             print(word)
 
-def check_entry(word_format):
+def is_valid_format(word_format):
     for char in word_format:
         if char not in "#%*!" + CONSONANTS + VOWELS:
-            print("Invalid Entry")
             return False
     return True
 

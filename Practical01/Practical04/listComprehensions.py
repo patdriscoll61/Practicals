@@ -4,6 +4,7 @@ List comprehensions
 """
 
 names = ["Bob", "Angel", "Jimi", "Alan", "Ada"]
+
 full_names = ["Bob Martin", "Angel Harlem", "Jimi Hendrix", "Alan Turing", "Ada Lovelace"]
 
 # for loop that creates a new list containing the first letter of each name
@@ -21,12 +22,13 @@ print(first_initials)
 full_initials = [(name.split()[0][0], name.split()[1][0]) for name in full_names]
 print(full_initials)
 
-
 almost_numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-# TODO: use a list comprehension to create a list of integers from this list of strings
-# numbers =
+# use a list comprehension to create a list of integers from this list of strings
+numbers = [int(number[0]) for number in almost_numbers]
+print(numbers)
 
-# TODO: use a list comprehension to create a list of all of the full_names in lowercase
-# lowercase_full_names =
+# use a list comprehension to create a list of all of the full_names in lowercase
+lowercase_full_names = [name.lower() for name in full_names]
+print(lowercase_full_names)
 

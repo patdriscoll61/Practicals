@@ -24,8 +24,16 @@ def main():
     scores_file.close()
     for i in range(len(subjects)):
         print(subjects[i], "Scores:")
+        total_scores = 0
+        count_scores = 0
+        min_score = 99999
         for j in range(len(score_values)):
             print(score_values[j][i])
-
+            count_scores += 1
+            total_scores += score_values[j][i]
+            if min_score > score_values[j][i]:
+                min_score = score_values[j][i]
+        print("   Minimum Score: {:3d}".format(min_score))
+        print("   Average Score: {:6.2f}".format(total_scores/count_scores))
 
 main()

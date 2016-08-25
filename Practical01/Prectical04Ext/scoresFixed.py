@@ -13,7 +13,7 @@ Use the debugger to follow what it's doing... then fix it.
 def main():
     scores_file = open("scores.csv")
     scores_data = scores_file.readlines()
-    print(scores_data)
+    #print(scores_data)
     subjects = scores_data[0].strip().split(",")
     #print(subjects)
     score_values = []
@@ -24,10 +24,8 @@ def main():
     scores_file.close()
     for i in range(len(subjects)):
         print(subjects[i], "Scores:")
-        for score in score_values[i]:
-            print(score)
-        print("Max:", max(score_values[i]))
-        print()
+        for j in range(len(score_values)):
+            print(score_values[j][i])
 
 
 main()

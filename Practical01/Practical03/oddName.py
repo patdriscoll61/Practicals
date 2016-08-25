@@ -2,7 +2,7 @@
 def main():
 
     name = get_name()
-    print(name[1:len(name):2])
+    print(name[1:len(name):3])
 
 
 def get_name():

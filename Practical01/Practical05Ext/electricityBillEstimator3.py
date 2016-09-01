@@ -8,7 +8,7 @@ tarifs = [tarif for tarif in TARIF.keys()]
 # print(tarifs)
 # tarif = input("Which tarif? {}".format(tarif for tarif in TARIF.keys()))
 
-tarif = input("Which tarif? {}".format(tarifs))
+tarif = input("Which tarif? {}: ".format(', '.join(TARIF.keys())))
 
 print(tarif)
 

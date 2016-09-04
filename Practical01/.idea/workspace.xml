@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="185012d0-1988-4913-a451-1d93abc56b19" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical06/milesToKm_2.kv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical06/milesToKm_2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical06/listLabels.kv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical06/listLabels.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practical06/milesToKm.kv" afterPath="$PROJECT_DIR$/Practical06/milesToKm.kv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practical06/milesToKm.py" afterPath="$PROJECT_DIR$/Practical06/milesToKm.py" />
     </list>
     <ignored path="Practical01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,12 +21,14 @@
     <SUITE FILE_PATH="coverage/Practical01$electricityBillEstimator2.coverage" NAME="electricityBillEstimator2 Coverage Results" MODIFIED="1470010251073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practical01$numbers2.coverage" NAME="numbers2 Coverage Results" MODIFIED="1470611611419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$passwordChecker.coverage" NAME="passwordChecker Coverage Results" MODIFIED="1470611926477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
+    <SUITE FILE_PATH="coverage/Practical01$dynamic_widgets.coverage" NAME="dynamic_widgets Coverage Results" MODIFIED="1472985844420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06/KyviDemos" />
     <SUITE FILE_PATH="coverage/Practical01$Format01.coverage" NAME="Format01 Coverage Results" MODIFIED="1470106964879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$asciiTable.coverage" NAME="asciiTable Coverage Results" MODIFIED="1470613426105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$passwordGenerator.coverage" NAME="passwordGenerator Coverage Results" MODIFIED="1470617228690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$numberSequenceGenerator.coverage" NAME="numberSequenceGenerator Coverage Results" MODIFIED="1470014029673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practical01$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1472952747337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06/KyviDemos" />
     <SUITE FILE_PATH="coverage/Practical01$box_layout_demo.coverage" NAME="box_layout_demo Coverage Results" MODIFIED="1472969020291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
+    <SUITE FILE_PATH="coverage/Practical01$listLabels.coverage" NAME="listLabels Coverage Results" MODIFIED="1473005677073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
     <SUITE FILE_PATH="coverage/Practical01$milesToKm.coverage" NAME="milesToKm Coverage Results" MODIFIED="1472982090294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
     <SUITE FILE_PATH="coverage/Practical01$readName.coverage" NAME="readName Coverage Results" MODIFIED="1470585082645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$testExceptions.coverage" NAME="testExceptions Coverage Results" MODIFIED="1470583705023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
@@ -58,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="milesToKm_2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="milesToKm_2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical06/milesToKm_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+            <state relative-caret-position="187">
+              <caret line="17" column="7" selection-start-line="15" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#66#90#0" expanded="true" />
               </folding>
@@ -70,11 +70,53 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="dynamic_widgets.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical06/KyviDemos/dynamic_widgets.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dynamic_widgets.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical06/KyviDemos/dynamic_widgets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-391">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listLabels.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Practical06/listLabels.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+              <folding>
+                <element signature="e#72#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listLabels.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical06/listLabels.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="milesToKm_2.kv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical06/milesToKm_2.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+            <state relative-caret-position="85">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -128,6 +170,9 @@
         <option value="$PROJECT_DIR$/Practical06/milesToKm.py" />
         <option value="$PROJECT_DIR$/Practical06/milesToKm_2.py" />
         <option value="$PROJECT_DIR$/Practical06/milesToKm_2.kv" />
+        <option value="$PROJECT_DIR$/Practical06/KyviDemos/dynamic_widgets.py" />
+        <option value="$PROJECT_DIR$/Practical06/listLabels.kv" />
+        <option value="$PROJECT_DIR$/Practical06/listLabels.py" />
       </list>
     </option>
   </component>
@@ -241,43 +286,7 @@
       <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.milesToKm_2">
-    <configuration default="false" name="popup_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical06/KyviDemos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Practical01" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/KyviDemos/popup_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="box_layout_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Practical01" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/box_layout_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.listLabels">
     <configuration default="false" name="squaring" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,6 +337,42 @@
       <module name="Practical01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/milesToKm_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dynamic_widgets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical06/KyviDemos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practical01" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/KyviDemos/dynamic_widgets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="listLabels" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practical01" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/listLabels.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -541,19 +586,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.popup_demo" />
-      <item index="1" class="java.lang.String" itemvalue="Python.box_layout_demo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.squaring" />
-      <item index="3" class="java.lang.String" itemvalue="Python.milesToKm" />
-      <item index="4" class="java.lang.String" itemvalue="Python.milesToKm_2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.squaring" />
+      <item index="1" class="java.lang.String" itemvalue="Python.milesToKm" />
+      <item index="2" class="java.lang.String" itemvalue="Python.milesToKm_2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dynamic_widgets" />
+      <item index="4" class="java.lang.String" itemvalue="Python.listLabels" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.milesToKm_2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.milesToKm" />
-        <item index="2" class="java.lang.String" itemvalue="Python.squaring" />
-        <item index="3" class="java.lang.String" itemvalue="Python.box_layout_demo" />
-        <item index="4" class="java.lang.String" itemvalue="Python.popup_demo" />
+        <item index="0" class="java.lang.String" itemvalue="Python.listLabels" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dynamic_widgets" />
+        <item index="2" class="java.lang.String" itemvalue="Python.milesToKm_2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.milesToKm" />
+        <item index="4" class="java.lang.String" itemvalue="Python.squaring" />
       </list>
     </recent_temporary>
   </component>
@@ -592,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1472981167320</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="milesToKm stage 2">
+      <created>1472982866031</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1472982866031</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -634,7 +686,8 @@
     <MESSAGE value="Perform Walkthrough Example tasks" />
     <MESSAGE value="Perform intermediate excercises on squaring.py" />
     <MESSAGE value="milesToKm stage 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="milesToKm stage 1" />
+    <MESSAGE value="milesToKm stage 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="milesToKm stage 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -643,42 +696,17 @@
           <url>file://$PROJECT_DIR$/Workshop02/taskOne.py</url>
           <line>4</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Practical06/listLabels.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Practical02/Format01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Workshop02/taskOne.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Workshop02/taskTwo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Workshop02/taskThree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practical02/Format01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -877,7 +905,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
             <marker date="1472969020281" expanded="true" signature="82:487" ph="..." />
             <marker date="1472969020281" expanded="true" signature="251:365" ph="..." />
             <marker date="1472969020281" expanded="true" signature="394:487" ph="..." />
@@ -924,7 +952,7 @@
         <state relative-caret-position="-102">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding>
-            <element signature="e#109#133#0" expanded="true" />
+            <element signature="e#109#133#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -934,7 +962,7 @@
         <state relative-caret-position="320">
           <caret line="34" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#66#90#0" expanded="true" />
+            <element signature="e#66#90#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -947,20 +975,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical06/milesToKm_2.kv">
+    <entry file="file://$PROJECT_DIR$/Practical06/milesToKm_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        <state relative-caret-position="187">
+          <caret line="17" column="7" selection-start-line="15" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#66#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical06/KyviDemos/dynamic_widgets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical06/milesToKm_2.py">
+    <entry file="file://$PROJECT_DIR$/Practical06/milesToKm_2.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        <state relative-caret-position="85">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical06/KyviDemos/dynamic_widgets.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical06/listLabels.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical06/listLabels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
           <folding>
-            <element signature="e#66#90#0" expanded="true" />
+            <element signature="e#72#96#0" expanded="true" />
           </folding>
         </state>
       </provider>

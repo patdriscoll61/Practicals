@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="185012d0-1988-4913-a451-1d93abc56b19" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical06/box_layout.kv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical06/box_layout_demo.py" />
+    <list default="true" id="185012d0-1988-4913-a451-1d93abc56b19" name="Default" comment="Perform Walkthrough Example tasks">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical06/squaring.kv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical06/squaring.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Practical01.iws" />
@@ -33,6 +33,7 @@
     <SUITE FILE_PATH="coverage/Practical01$saveName.coverage" NAME="saveName Coverage Results" MODIFIED="1470585067982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$aascratch.coverage" NAME="aascratch Coverage Results" MODIFIED="1470026055406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practical01$taskTwo.coverage" NAME="taskTwo Coverage Results" MODIFIED="1470097466436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Workshop02" />
+    <SUITE FILE_PATH="coverage/Practical01$squaring.coverage" NAME="squaring Coverage Results" MODIFIED="1472970126837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
     <SUITE FILE_PATH="coverage/Practical01$salesBonusWithLoop.coverage" NAME="salesBonusWithLoop Coverage Results" MODIFIED="1470006438021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practical01$taskOne.coverage" NAME="taskOne Coverage Results" MODIFIED="1470096648303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Workshop02" />
     <SUITE FILE_PATH="coverage/Practical01$exceptionsCompleted.coverage" NAME="exceptionsCompleted Coverage Results" MODIFIED="1470584525386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
@@ -63,14 +64,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="box_layout_demo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="box_layout_demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical06/box_layout_demo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
+                <marker date="1472969020281" expanded="true" signature="82:487" ph="..." />
+                <marker date="1472969020281" expanded="true" signature="251:365" ph="..." />
+                <marker date="1472969020281" expanded="true" signature="394:487" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="squaring.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical06/squaring.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="squaring.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Practical06/squaring.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,8 +102,18 @@
       <file leaf-file-name="id_demo.kv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical06/KyviDemos/id_demo.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup_demo.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical06/KyviDemos/popup_demo.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -139,6 +173,8 @@
         <option value="$PROJECT_DIR$/Practical02/passwordGenerator.py" />
         <option value="$PROJECT_DIR$/Practical06/box_layout.kv" />
         <option value="$PROJECT_DIR$/Practical06/box_layout_demo.py" />
+        <option value="$PROJECT_DIR$/Practical06/squaring.kv" />
+        <option value="$PROJECT_DIR$/Practical06/squaring.py" />
       </list>
     </option>
   </component>
@@ -270,25 +306,7 @@
       <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.box_layout_demo">
-    <configuration default="false" name="stockPriceSimulator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Practical01" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical02/stockPriceSimulator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.squaring">
     <configuration default="false" name="passwordGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -357,6 +375,24 @@
       <module name="Practical01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/box_layout_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="squaring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practical01" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/squaring.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -570,19 +606,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.stockPriceSimulator" />
-      <item index="1" class="java.lang.String" itemvalue="Python.passwordGenerator" />
-      <item index="2" class="java.lang.String" itemvalue="Python.hello_world" />
-      <item index="3" class="java.lang.String" itemvalue="Python.popup_demo" />
-      <item index="4" class="java.lang.String" itemvalue="Python.box_layout_demo" />
+      <item index="0" class="java.lang.String" itemvalue="Python.passwordGenerator" />
+      <item index="1" class="java.lang.String" itemvalue="Python.hello_world" />
+      <item index="2" class="java.lang.String" itemvalue="Python.popup_demo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.box_layout_demo" />
+      <item index="4" class="java.lang.String" itemvalue="Python.squaring" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.box_layout_demo" />
-        <item index="1" class="java.lang.String" itemvalue="Python.popup_demo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.hello_world" />
-        <item index="3" class="java.lang.String" itemvalue="Python.passwordGenerator" />
-        <item index="4" class="java.lang.String" itemvalue="Python.stockPriceSimulator" />
+        <item index="0" class="java.lang.String" itemvalue="Python.squaring" />
+        <item index="1" class="java.lang.String" itemvalue="Python.box_layout_demo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.popup_demo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.hello_world" />
+        <item index="4" class="java.lang.String" itemvalue="Python.passwordGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -600,6 +636,14 @@
       <option name="presentableId" value="Default" />
       <updated>1469664925535</updated>
     </task>
+    <task id="LOCAL-00001" summary="Perform Walkthrough Example tasks">
+      <created>1472969092959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1472969092959</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -636,6 +680,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Perform Walkthrough Example tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Perform Walkthrough Example tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,11 +937,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical06/KyviDemos/popup_demo.kv">
+    <entry file="file://$PROJECT_DIR$/Practical06/box_layout.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical06/box_layout_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1472969020281" expanded="true" signature="82:487" ph="..." />
+            <marker date="1472969020281" expanded="true" signature="251:365" ph="..." />
+            <marker date="1472969020281" expanded="true" signature="394:487" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -909,27 +970,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Practical06/KyviDemos/id_demo.kv">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical06/KyviDemos/popup_demo.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical06/squaring.kv">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical06/box_layout.kv">
+    <entry file="file://$PROJECT_DIR$/Practical06/squaring.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="252">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practical06/box_layout_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

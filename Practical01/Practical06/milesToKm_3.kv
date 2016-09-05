@@ -1,0 +1,61 @@
+<Widget>:
+    canvas.before:
+        Color:
+            rgba: 1, 1, 1, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    color: 0, 0, 0, 1
+
+<Button>:
+#    font_name: 'BuxtonSketch.ttf'
+    font_size: 36
+    background_normal: ''
+    background_down: 'atlas://data/images/defaulttheme/button'
+    canvas.after:
+        Color:
+            rgba: 0, 0, 0, 1
+        Line:
+            rectangle: self.x + 1, self.y + 1, self.width - 1, self.height - 1
+
+<TextInput>
+    canvas.before:
+        Color:
+            rgba: 0, 0, 1, 1
+        Line:
+            rectangle: self.x + 1, self.y + 1, self.width - 1, self.height - 1
+
+    color: 1, 0, 0, 1
+
+#<Label>
+#    canvas.after:
+#        Color:
+#            rgba: 1, 1, 0, 1
+#        Line:
+#            rectangle: self.x + 1, self.y + 1, self.width - 1, self.height - 1
+
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'horizontal'
+        TextInput:
+            id: text_input
+            text: ''
+            color: (1,0,0,1)
+            font_size: 40
+            multiline: False
+            on_text_validate: app.handle_calculate(self.text)
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint_x: .3
+            Button:
+                text: 'Up'
+                on_press: app.handle_increment(1)
+            Button:
+                text: 'Down'
+                on_press: app.handle_increment(-1)
+    Label:
+        id: output_label
+        text: ""
+        font_size: 40
+        color: (1,0,0,1)

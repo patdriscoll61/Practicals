@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="185012d0-1988-4913-a451-1d93abc56b19" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical07/car.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical07/usedCars.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical07/languages.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical07/programmingLanguage.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Practical01.iws" />
@@ -30,6 +30,7 @@
     <SUITE FILE_PATH="coverage/Practical01$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1472952747337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06/KyviDemos" />
     <SUITE FILE_PATH="coverage/Practical01$box_layout_demo.coverage" NAME="box_layout_demo Coverage Results" MODIFIED="1472969020291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
     <SUITE FILE_PATH="coverage/Practical01$listLabels.coverage" NAME="listLabels Coverage Results" MODIFIED="1473031386476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
+    <SUITE FILE_PATH="coverage/Practical01$languages.coverage" NAME="languages Coverage Results" MODIFIED="1473856726210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07" />
     <SUITE FILE_PATH="coverage/Practical01$milesToKm.coverage" NAME="milesToKm Coverage Results" MODIFIED="1472982090294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
     <SUITE FILE_PATH="coverage/Practical01$readName.coverage" NAME="readName Coverage Results" MODIFIED="1470585082645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$testExceptions.coverage" NAME="testExceptions Coverage Results" MODIFIED="1470583705023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
@@ -64,19 +65,45 @@
       <file leaf-file-name="car.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical07/car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="255">
               <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <folding>
+                <marker date="1473834172580" expanded="true" signature="62:875" ph="..." />
+                <marker date="1473834172580" expanded="true" signature="105:282" ph="..." />
+                <marker date="1473834172580" expanded="true" signature="306:390" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="programmingLanguage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical07/programmingLanguage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usedCars.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="languages.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Practical07/languages.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usedCars.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical07/usedCars.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1473834172590" expanded="true" signature="160:568" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,6 +164,8 @@
         <option value="$PROJECT_DIR$/Practical06/milesToKm_3.kv" />
         <option value="$PROJECT_DIR$/Practical07/car.py" />
         <option value="$PROJECT_DIR$/Practical07/usedCars.py" />
+        <option value="$PROJECT_DIR$/Practical07/programmingLanguage.py" />
+        <option value="$PROJECT_DIR$/Practical07/languages.py" />
       </list>
     </option>
   </component>
@@ -250,7 +279,7 @@
       <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.usedCars">
+  <component name="RunManager" selected="Python.languages">
     <configuration default="false" name="listLabels" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,24 +294,6 @@
       <module name="Practical01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/listLabels.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="quick_sum_app" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical06/KyviDemos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Practical01" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/KyviDemos/quick_sum_app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -337,6 +348,24 @@
       <module name="Practical01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical07/usedCars.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="languages" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practical01" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical07/languages.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -551,18 +580,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.listLabels" />
-      <item index="1" class="java.lang.String" itemvalue="Python.quick_sum_app" />
-      <item index="2" class="java.lang.String" itemvalue="Python.milesToKm_3" />
-      <item index="3" class="java.lang.String" itemvalue="Python.squaring" />
-      <item index="4" class="java.lang.String" itemvalue="Python.usedCars" />
+      <item index="1" class="java.lang.String" itemvalue="Python.milesToKm_3" />
+      <item index="2" class="java.lang.String" itemvalue="Python.squaring" />
+      <item index="3" class="java.lang.String" itemvalue="Python.usedCars" />
+      <item index="4" class="java.lang.String" itemvalue="Python.languages" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.usedCars" />
-        <item index="1" class="java.lang.String" itemvalue="Python.milesToKm_3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.squaring" />
-        <item index="3" class="java.lang.String" itemvalue="Python.listLabels" />
-        <item index="4" class="java.lang.String" itemvalue="Python.quick_sum_app" />
+        <item index="0" class="java.lang.String" itemvalue="Python.languages" />
+        <item index="1" class="java.lang.String" itemvalue="Python.usedCars" />
+        <item index="2" class="java.lang.String" itemvalue="Python.milesToKm_3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.squaring" />
+        <item index="4" class="java.lang.String" itemvalue="Python.listLabels" />
       </list>
     </recent_temporary>
   </component>
@@ -629,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473034282508</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Perform Walkthrough tasks">
+      <created>1473834430847</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1473834430847</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -640,9 +676,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -694,7 +730,8 @@
     <MESSAGE value="milesToKm stage 2" />
     <MESSAGE value="Add listLabels" />
     <MESSAGE value="Finish Prac" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Prac" />
+    <MESSAGE value="Perform Walkthrough tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Perform Walkthrough tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -714,8 +751,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/menus.py" />
-    <entry file="file://$PROJECT_DIR$/electricityBillEstimator2.py" />
     <entry file="file://$PROJECT_DIR$/electricityBillEstimator.py" />
     <entry file="file://$PROJECT_DIR$/salesBonusWithLoop.py" />
     <entry file="file://$PROJECT_DIR$/salesBonus.py" />
@@ -921,7 +956,7 @@
         <state relative-caret-position="204">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#209#230#0" expanded="true" />
+            <element signature="e#209#230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -946,7 +981,7 @@
         <state relative-caret-position="102">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
-            <element signature="e#72#96#0" expanded="true" />
+            <element signature="e#72#96#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1001,9 +1036,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Practical07/car.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="255">
           <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-          <folding />
+          <folding>
+            <marker date="1473834172580" expanded="true" signature="62:875" ph="..." />
+            <marker date="1473834172580" expanded="true" signature="105:282" ph="..." />
+            <marker date="1473834172580" expanded="true" signature="306:390" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,6 +1050,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1473834172590" expanded="true" signature="160:568" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical07/programmingLanguage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical07/languages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

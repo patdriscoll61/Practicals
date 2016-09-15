@@ -2,7 +2,7 @@
 Code to use the ProgrammingLanguage class
 """
 
-from programmingLanguage import ProgrammingLanguage
+from Practical07.programmingLanguage import ProgrammingLanguage
 
 def main():
     ruby = ProgrammingLanguage("Ruby", "Dynamic", True, 1995)
@@ -13,8 +13,9 @@ def main():
 
     print(python)
 
+    print("The dynamically typed languages are:")
     for language in languages:
-        if language.typing == "Dynamic":
-            print(language.language)
+        if language.is_dynamic():
+            print(language.name)
 
 main()

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="185012d0-1988-4913-a451-1d93abc56b19" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical07/guitar.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical07/guitartest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Practical01.iws" />
@@ -30,7 +28,7 @@
     <SUITE FILE_PATH="coverage/Practical01$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1472952747337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06/KyviDemos" />
     <SUITE FILE_PATH="coverage/Practical01$box_layout_demo.coverage" NAME="box_layout_demo Coverage Results" MODIFIED="1472969020291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
     <SUITE FILE_PATH="coverage/Practical01$listLabels.coverage" NAME="listLabels Coverage Results" MODIFIED="1473031386476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
-    <SUITE FILE_PATH="coverage/Practical01$languages.coverage" NAME="languages Coverage Results" MODIFIED="1473856726210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07" />
+    <SUITE FILE_PATH="coverage/Practical01$languages.coverage" NAME="languages Coverage Results" MODIFIED="1473903040175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07" />
     <SUITE FILE_PATH="coverage/Practical01$milesToKm.coverage" NAME="milesToKm Coverage Results" MODIFIED="1472982090294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
     <SUITE FILE_PATH="coverage/Practical01$readName.coverage" NAME="readName Coverage Results" MODIFIED="1470585082645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$testExceptions.coverage" NAME="testExceptions Coverage Results" MODIFIED="1470583705023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
@@ -49,7 +47,8 @@
     <SUITE FILE_PATH="coverage/Practical01$numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1470586278815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$stockPriceSimulator.coverage" NAME="stockPriceSimulator Coverage Results" MODIFIED="1470615401371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$electricityBillEstimator.coverage" NAME="electricityBillEstimator Coverage Results" MODIFIED="1470009168774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Practical01$guitartest.coverage" NAME="guitartest Coverage Results" MODIFIED="1473887337735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07" />
+    <SUITE FILE_PATH="coverage/Practical01$guitartest.coverage" NAME="guitartest Coverage Results" MODIFIED="1473904030977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07" />
+    <SUITE FILE_PATH="coverage/Practical01$drivingSimulator.coverage" NAME="drivingSimulator Coverage Results" MODIFIED="1473902118558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prectical04Ext" />
     <SUITE FILE_PATH="coverage/Practical01$menus.coverage" NAME="menus Coverage Results" MODIFIED="1470010955243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practical01$milesToKm_3.coverage" NAME="milesToKm_3 Coverage Results" MODIFIED="1473833350684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
     <SUITE FILE_PATH="coverage/Practical01$loops.coverage" NAME="loops Coverage Results" MODIFIED="1470005915497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -63,21 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="car.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practical07/car.py">
+      <file leaf-file-name="guitar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical07/guitar.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="programmingLanguage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practical07/programmingLanguage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,18 +75,8 @@
       <file leaf-file-name="languages.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical07/languages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guitar.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practical07/guitar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="289">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -106,18 +85,18 @@
       <file leaf-file-name="guitartest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Practical07/guitartest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="15" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="30" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usedCars.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practical07/usedCars.py">
+      <file leaf-file-name="programmingLanguage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical07/programmingLanguage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -179,6 +158,7 @@
         <option value="$PROJECT_DIR$/Practical06/milesToKm_3.kv" />
         <option value="$PROJECT_DIR$/Practical07/car.py" />
         <option value="$PROJECT_DIR$/Practical07/usedCars.py" />
+        <option value="$PROJECT_DIR$/Prectical04Ext/drivingSimulator.py" />
         <option value="$PROJECT_DIR$/Practical07/programmingLanguage.py" />
         <option value="$PROJECT_DIR$/Practical07/languages.py" />
         <option value="$PROJECT_DIR$/Practical07/guitar.py" />
@@ -249,6 +229,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Prectical04Ext" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Practical01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Practical01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Practical07" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -292,6 +286,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01\Practical07Ext" />
       <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01\Practical06" />
       <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01" />
     </key>
@@ -311,24 +306,6 @@
       <module name="Practical01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/milesToKm_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="squaring" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Practical01" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/squaring.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -383,6 +360,24 @@
       <module name="Practical01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical07/guitartest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="drivingSimulator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prectical04Ext" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practical01" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prectical04Ext/drivingSimulator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -597,18 +592,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.milesToKm_3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.squaring" />
-      <item index="2" class="java.lang.String" itemvalue="Python.usedCars" />
-      <item index="3" class="java.lang.String" itemvalue="Python.languages" />
-      <item index="4" class="java.lang.String" itemvalue="Python.guitartest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.usedCars" />
+      <item index="2" class="java.lang.String" itemvalue="Python.languages" />
+      <item index="3" class="java.lang.String" itemvalue="Python.guitartest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.drivingSimulator" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.guitartest" />
         <item index="1" class="java.lang.String" itemvalue="Python.languages" />
-        <item index="2" class="java.lang.String" itemvalue="Python.usedCars" />
-        <item index="3" class="java.lang.String" itemvalue="Python.milesToKm_3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.squaring" />
+        <item index="2" class="java.lang.String" itemvalue="Python.drivingSimulator" />
+        <item index="3" class="java.lang.String" itemvalue="Python.usedCars" />
+        <item index="4" class="java.lang.String" itemvalue="Python.milesToKm_3" />
       </list>
     </recent_temporary>
   </component>
@@ -689,14 +684,42 @@
       <option name="project" value="LOCAL" />
       <updated>1473856776599</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Develop Guitar class and test program">
+      <created>1473900969557</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1473900969557</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Develop Guitar class and test program">
+      <created>1473904046205</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1473904046205</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Make changes suggested by LW">
+      <created>1473904086061</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1473904086061</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Make changes suggested by LW">
+      <created>1473904565045</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1473904565045</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1257" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2623225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2623225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -756,7 +779,9 @@
     <MESSAGE value="Finish Prac" />
     <MESSAGE value="Perform Walkthrough tasks" />
     <MESSAGE value="Perform Intermediate Tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Perform Intermediate Tasks" />
+    <MESSAGE value="Develop Guitar class and test program" />
+    <MESSAGE value="Make changes suggested by LW" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make changes suggested by LW" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -776,8 +801,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/salesBonus.py" />
-    <entry file="file://$PROJECT_DIR$/loops.py" />
     <entry file="file://$PROJECT_DIR$/aascratch.py" />
     <entry file="file://$PROJECT_DIR$/temperature.py" />
     <entry file="file://$PROJECT_DIR$/hello.py" />
@@ -978,6 +1001,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#209#230#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,26 +1073,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Practical07Ext/car.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prectical04Ext/drivingSimulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Practical07/car.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practical07/programmingLanguage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practical07/languages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1079,18 +1105,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Practical07/programmingLanguage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical07/languages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Practical07/guitar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="255">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Practical07/guitartest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="15" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="30" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>

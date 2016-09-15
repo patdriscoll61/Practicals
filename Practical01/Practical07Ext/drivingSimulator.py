@@ -1,5 +1,5 @@
 """
-Driving Simulator as per Extension WorkPracc 07
+Driving Simulator as per Extension WorkPrac 07
 """
 
 from Practical07.car import Car

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="185012d0-1988-4913-a451-1d93abc56b19" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Prectical04Ext/drivingSimulator.py" afterPath="$PROJECT_DIR$/Practical07Ext/drivingSimulator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practical07Ext/drivingSimulator.py" afterPath="$PROJECT_DIR$/Practical07Ext/drivingSimulator.py" />
     </list>
     <ignored path="Practical01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,8 +77,8 @@
       <file leaf-file-name="drivingSimulator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Practical07Ext/drivingSimulator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            <state relative-caret-position="17">
+              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -719,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473904660076</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Code and test drivingSimulator&#10;">
+      <created>1473906833839</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1473906833839</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -788,7 +795,8 @@
     <MESSAGE value="Perform Intermediate Tasks" />
     <MESSAGE value="Develop Guitar class and test program" />
     <MESSAGE value="Make changes suggested by LW" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make changes suggested by LW" />
+    <MESSAGE value="Code and test drivingSimulator&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code and test drivingSimulator&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1138,8 +1146,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Practical07Ext/drivingSimulator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        <state relative-caret-position="17">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
           <folding />
         </state>
       </provider>

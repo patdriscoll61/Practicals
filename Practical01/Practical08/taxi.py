@@ -3,6 +3,7 @@ CP1404/CP5632 Practical
 Car class
 """
 
+import random
 
 class Car:
     """ represent a car object """
@@ -60,3 +61,24 @@ class Taxi(Car):
         self.current_fare_distance += distance_driven
         return distance_driven
 
+class UnreliableCar(Car):
+    """ specialised version of a Car that includes a reliability factor """
+
+    def __init__(self, name, fuel, reliability):
+        """ initialise a Taxi instance, based on parent class Car """
+        super().__init__(name, fuel)
+        self.reliability = reliability
+
+    def __str__(self):
+        """ return a string representation like a car but with current fare distance"""
+        return "{}, {} reliability".format(super().__str__(), self.reliability)
+
+
+    def drive(self, distance):
+        """ drive like parent Car but calculate fare distance as well"""
+        reliability = random.random() * 100
+        print(reliability)
+        distance_driven = 0
+        if reliability < self.reliability:
+            distance_driven = super().drive(distance)
+        return distance_driven

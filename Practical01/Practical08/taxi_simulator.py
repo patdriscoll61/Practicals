@@ -5,8 +5,9 @@ Taxi Simulator using Taxi and SilverService taxi classes
 from Practical08.taxi import Taxi
 from Practical08.taxi import SilverServiceTaxi
 
+
 def main():
-    taxis = [Taxi("Prius", 100), SilverServiceTaxi("Limo", 100, 2),SilverServiceTaxi("Hummer", 200, 4)]
+    taxis = [Taxi("Prius", 100), SilverServiceTaxi("Limo", 100, 2), SilverServiceTaxi("Hummer", 200, 4)]
     total_bill = 0
 
     print("Let's drive!")
@@ -37,10 +38,11 @@ def main():
             taxi.start_fare()
             taxi.drive(distance)
             total_bill += taxi.get_fare()
-            print("Your {} trip cost you ${:.2f}".format(taxi.name,taxi.get_fare()))
+            print("Your {} trip cost you ${:.2f}".format(taxi.name, taxi.get_fare()))
         elif choice != "Q":
             print("Invalid Option")
 
         print("Bill to date: ${:.2f}".format(total_bill))
+
 
 main()

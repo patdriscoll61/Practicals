@@ -82,3 +82,27 @@ class UnreliableCar(Car):
         if reliability < self.reliability:
             distance_driven = super().drive(distance)
         return distance_driven
+
+
+class SilverServoceTaxi(Taxi):
+    """ Flash Harry taxi """
+
+
+    def __init__(self, name, fuel, fanicness):
+        """ initialise a Taxi instance, based on parent class Car """
+        super().__init__(name, fuel)
+        self.fanciness = fanicness
+        self.current_fare_distance = 0
+        self.price_per_km = Taxi.price_per_km * self.fanciness
+        self.flagfall = 4.50
+
+
+    def __str__(self):
+        """ return a string representation like a taxi but with a flagfall"""
+        return "{} plus flagfall of ${:.2f}".format(super().__str__(), self.flagfall )
+
+
+    def get_fare(self):
+        """ get the price for the taxi trip """
+        return super().get_fare()+self.flagfall
+        #return self.price_per_km * elf.current_fare_distance + self.flagfall

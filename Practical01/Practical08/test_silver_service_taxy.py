@@ -2,13 +2,13 @@
 tests the SilverServicdtaxi class
 """
 
-from Practical08.taxi import SilverServoceTaxi
+from Practical08.taxi import SilverServiceTaxi
 
 def main():
-    taxi = SilverServoceTaxi("Hummer",200,4)
+    taxi = SilverServiceTaxi("Hummer", 200, 4)
     print(taxi)
 
-    taxi = SilverServoceTaxi("Mercedes",200,2)
+    taxi = SilverServiceTaxi("Mercedes", 200, 2)
     print(taxi)
     taxi.start_fare()
     taxi.drive(10)

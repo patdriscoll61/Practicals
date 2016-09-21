@@ -84,7 +84,7 @@ class UnreliableCar(Car):
         return distance_driven
 
 
-class SilverServoceTaxi(Taxi):
+class SilverServiceTaxi(Taxi):
     """ Flash Harry taxi """
 
 

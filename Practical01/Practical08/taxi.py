@@ -75,11 +75,8 @@ class UnreliableCar(Car):
 
 
     def drive(self, distance):
-        """ drive like parent Car but calculate fare distance as well"""
-        reliability = random.random() * 100
-        print(reliability)
         distance_driven = 0
-        if reliability < self.reliability:
+        if random.random() * 100 < self.reliability:
             distance_driven = super().drive(distance)
         return distance_driven
 

@@ -48,39 +48,33 @@ def get_fixed_filename(filename):
     new_name = filename.replace(".TXT", ".txt")
     # Step 2 - Capitalise after a space
     temp_name = ""
-    is_space = False
-    for char in new_name:
-        if char == " ":
-            is_space = True
-            temp_name += char
+    chars = {}
+    for i,char in enumerate(new_name):
+        chars[i] = char
+        if i >= 1 and chars[i-1] == " ":
+            temp_name += chars[i].upper()
         else:
-            if is_space:
-                temp_name += char.upper()
-                is_space = False
-            else:
-                temp_name += char
+            temp_name += chars[i]
     new_name = temp_name
+    #print(chars)
+    #return new_name
     # Step 3 - Add a Space before a cap if it s not there
     temp_name = ""
-    is_space = True
-    for char in new_name:
-        if char == " ":
-            temp_name += char
-            is_space = True
-        else:
-            if char.isalpha() and char.upper() == char:
-                if not is_space:
-                    temp_name += " " + char
-                else:
-                    temp_name += char
-                is_space = False
+    chars = {}
+    for i,char in enumerate(new_name):
+        chars[i] = char
+        if char.isupper():
+            if i >= 1 and chars[i-1] != " " and chars[i-1] != "(":
+                temp_name += " " + chars[i]
             else:
-                temp_name += char
-                is_space = False
+                temp_name += chars[i]
+        else:
+                temp_name += chars[i]
     new_name = temp_name
     # Step 4 - Replace space with underline character
     new_name = new_name.replace(" ", "_")
     return new_name
+
 
 def view_folders():
     # Processing subdirectories using os.walk()

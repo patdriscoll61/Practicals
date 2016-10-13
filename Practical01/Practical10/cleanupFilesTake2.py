@@ -37,37 +37,24 @@ def get_fixed_filename(filename):
     new_name = filename.replace(".TXT", ".txt")
     # Step 2 - Capitalise after a space
     temp_name = ""
-    is_space = False
-    for char in new_name:
-        if char == " ":
-            is_space = True
-            temp_name += char
+    for i,char in enumerate(new_name):
+        if i >= 1 and new_name[i-1] == " ":
+            temp_name += new_name[i].upper()
         else:
-            if is_space:
-                temp_name += char.upper()
-                is_space = False
-            else:
-                temp_name += char
+            temp_name += new_name[i]
     new_name = temp_name
+    #print(chars)
+    #return new_name
     # Step 3 - Add a Space before a cap if it s not there
     temp_name = ""
-    is_space = True
-    for char in new_name:
-        if char == " ":
-            temp_name += char
-            is_space = True
-        elif char in ["(",")"]:
-            temp_name += char
-            is_space = True
-        else:
-            if char.isalpha() and char.upper() == char:
-                if not is_space:
-                    temp_name += " " + char
-                else:
-                    temp_name += char
+    for i,char in enumerate(new_name):
+        if char.isupper():
+            if i >= 1 and new_name[i-1] != " " and new_name[i-1] != "(":
+                temp_name += " " + new_name[i]
             else:
-                temp_name += char
-            is_space = False
+                temp_name += new_name[i]
+        else:
+            temp_name += new_name[i]
     new_name = temp_name
     # Step 4 - Replace space with underline character
     new_name = new_name.replace(" ", "_")

@@ -15,7 +15,6 @@ def main():
         if not os.path.isdir(filename):
             split_file_name = filename.rsplit(".")
             file_extension = split_file_name[-1]
-            #print(file_extension)
             if file_extension not in file_extensions:
                 file_extensions.append(file_extension)
                 os.mkdir(file_extension)

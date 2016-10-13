@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="185012d0-1988-4913-a451-1d93abc56b19" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical10/sortFiles.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prectical04Ext/fiveNumbers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prectical04Ext/memberwiseAddition.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prectical04Ext/scores.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prectical04Ext/scoresFixed.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prectical04Ext/strings.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical10/cleanupFilesTake2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical10/sortFilesV2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practical10/cleanupFiles_V2.py" afterPath="$PROJECT_DIR$/Practical10/cleanupFiles_V2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practical10/sortFiles.py" afterPath="$PROJECT_DIR$/Practical10/sortFiles.py" />
     </list>
     <ignored path="Practical01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +39,7 @@
     <SUITE FILE_PATH="coverage/Practical01$quick_sum_app.coverage" NAME="quick_sum_app Coverage Results" MODIFIED="1473012243318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06/KyviDemos" />
     <SUITE FILE_PATH="coverage/Practical01$numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1470586278815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$electricityBillEstimator.coverage" NAME="electricityBillEstimator Coverage Results" MODIFIED="1470009168774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Practical01$cleanupFiles.coverage" NAME="cleanupFiles Coverage Results" MODIFIED="1476291647670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical10" />
+    <SUITE FILE_PATH="coverage/Practical01$cleanupFiles.coverage" NAME="cleanupFiles Coverage Results" MODIFIED="1476323773292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical10" />
     <SUITE FILE_PATH="coverage/Practical01$guitartest.coverage" NAME="guitartest Coverage Results" MODIFIED="1473904030977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07" />
     <SUITE FILE_PATH="coverage/Practical01$drivingSimulator.coverage" NAME="drivingSimulator Coverage Results" MODIFIED="1473902118558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prectical04Ext" />
     <SUITE FILE_PATH="coverage/Practical01$menus.coverage" NAME="menus Coverage Results" MODIFIED="1470010955243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -68,6 +64,7 @@
     <SUITE FILE_PATH="coverage/Practical01$taskOne.coverage" NAME="taskOne Coverage Results" MODIFIED="1470096648303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Workshop02" />
     <SUITE FILE_PATH="coverage/Practical01$exceptionsCompleted.coverage" NAME="exceptionsCompleted Coverage Results" MODIFIED="1470584525386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$usertaco.coverage" NAME="usertaco Coverage Results" MODIFIED="1473982032747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07Ext" />
+    <SUITE FILE_PATH="coverage/Practical01$sortFilesV2.coverage" NAME="sortFilesV2 Coverage Results" MODIFIED="1476323240108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical10" />
     <SUITE FILE_PATH="coverage/Practical01$taskThree.coverage" NAME="taskThree Coverage Results" MODIFIED="1470097810103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Workshop02" />
     <SUITE FILE_PATH="coverage/Practical01$stockPriceSimulator.coverage" NAME="stockPriceSimulator Coverage Results" MODIFIED="1470615401371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$guitar_file_reader.coverage" NAME="guitar_file_reader Coverage Results" MODIFIED="1474519045454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical08Ext" />
@@ -84,8 +81,18 @@
       <file leaf-file-name="cleanupFiles.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical10/cleanupFiles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" column="3" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cleanupFilesTake2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Practical10/cleanupFilesTake2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,38 +101,28 @@
       <file leaf-file-name="cleanupFiles_V2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical10/cleanupFiles_V2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sortFiles.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sortFiles.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical10/sortFiles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="201">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guitar.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practical08Ext/guitar.py">
+      <file leaf-file-name="sortFilesV2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practical10/sortFilesV2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guitar_file_reader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Practical08Ext/guitar_file_reader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -151,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Practical02/asciiTable.py" />
         <option value="$PROJECT_DIR$/Practical02/saveName.py" />
         <option value="$PROJECT_DIR$/Practical02/readName.py" />
         <option value="$PROJECT_DIR$/Practical02/numbers.txt" />
@@ -199,8 +195,9 @@
         <option value="$PROJECT_DIR$/Practical08Ext/guitar_file_reader.py" />
         <option value="$PROJECT_DIR$/Practical08Ext/guitar_file_reader_2.py" />
         <option value="$PROJECT_DIR$/Practical09/cleanupFiles.py" />
-        <option value="$PROJECT_DIR$/Practical10/cleanupFiles.py" />
         <option value="$PROJECT_DIR$/Practical10/cleanupFiles_V2.py" />
+        <option value="$PROJECT_DIR$/Practical10/cleanupFiles.py" />
+        <option value="$PROJECT_DIR$/Practical10/sortFilesV2.py" />
         <option value="$PROJECT_DIR$/Practical10/sortFiles.py" />
       </list>
     </option>
@@ -334,29 +331,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FilesToSort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practical01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practical01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practical10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FilesToSort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
+              <option name="myItemId" value="FilesToSort2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,9 +387,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01\Practical07Ext" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01\Practical10" />
       <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01\Practical08Ext" />
@@ -422,26 +394,11 @@
       <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01\Practical06" />
       <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01\Practical07Ext" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.sortFiles">
-    <configuration default="false" name="guitar_file_reader" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical08Ext" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Practical01" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical08Ext/guitar_file_reader.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.cleanupFiles">
     <configuration default="false" name="guitar_file_reader_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -510,6 +467,24 @@
       <module name="Practical01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical10/sortFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sortFilesV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practical01" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical10/sortFilesV2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -723,19 +698,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.guitar_file_reader" />
-      <item index="1" class="java.lang.String" itemvalue="Python.guitar_file_reader_2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.cleanupFiles" />
-      <item index="3" class="java.lang.String" itemvalue="Python.cleanupFiles_V2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.sortFiles" />
+      <item index="0" class="java.lang.String" itemvalue="Python.guitar_file_reader_2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.cleanupFiles" />
+      <item index="2" class="java.lang.String" itemvalue="Python.cleanupFiles_V2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sortFiles" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sortFilesV2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.sortFiles" />
-        <item index="1" class="java.lang.String" itemvalue="Python.cleanupFiles_V2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.cleanupFiles" />
-        <item index="3" class="java.lang.String" itemvalue="Python.guitar_file_reader_2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.guitar_file_reader" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cleanupFiles" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sortFilesV2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.sortFiles" />
+        <item index="3" class="java.lang.String" itemvalue="Python.cleanupFiles_V2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.guitar_file_reader_2" />
       </list>
     </recent_temporary>
   </component>
@@ -928,7 +903,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476291449890</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Implement frojm Scratch Example Version 1">
+      <created>1476319334056</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1476319334056</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1015,7 +997,8 @@
     <MESSAGE value="Perform walkthrough example - files and classes" />
     <MESSAGE value="Extension work with Guitars" />
     <MESSAGE value="Make work for all directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make work for all directories" />
+    <MESSAGE value="Implement frojm Scratch Example Version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement frojm Scratch Example Version 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1035,20 +1018,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Practical06/box_layout_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practical06/milesToKm_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practical06/box_layout.kv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1363,24 +1332,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Practical10/cleanupFiles_V2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practical10/cleanupFiles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="3" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Practical10/sortFiles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="201">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical10/sortFilesV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical10/cleanupFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical10/cleanupFilesTake2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

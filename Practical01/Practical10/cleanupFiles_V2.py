@@ -11,14 +11,25 @@ def main():
     print("Current directory is", os.getcwd())
 
     # change to desired directory
-    os.chdir('Lyrics/Christmas')
+    os.chdir('Lyrics')
     # print a list of all files (test)
     # print(os.listdir('.'))
 
     # make a new directory
-    #os.mkdir('temp')
+    # os.mkdir('temp')
 
+    #view_folders()
 
+    # NOTE: os.walk() yields a 3-tuple (dirpath, dirnames, filenames)
+    for dir_name, subdir_list, file_list in os.walk('.'):
+        print("New Names Would Be For Folder ", dir_name)
+        for filename in file_list:
+            new_name = get_fixed_filename(filename)
+            print(new_name)
+            #os.rename(filename, new_name)
+        print("****","\n")
+
+def temp():
     # loop through each file in the (original) directory
     for filename in os.listdir('.'):
         # ignore directories, just process files
@@ -73,7 +84,7 @@ def get_fixed_filename(filename):
 
 def view_folders():
     # Processing subdirectories using os.walk()
-    os.chdir('..')
+    #os.chdir('..')
     # NOTE: os.walk() yields a 3-tuple (dirpath, dirnames, filenames)
     for dir_name, subdir_list, file_list in os.walk('.'):
         print("In", dir_name)

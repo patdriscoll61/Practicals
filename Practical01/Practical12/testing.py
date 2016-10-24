@@ -11,7 +11,10 @@ def repeat_string(s, n):
     """
     repeat string s, n times, with spaces in between
     """
-    return s * n
+    return_str = []
+    for i in range(1, n + 1, 1):
+        return_str.append(s)
+    return " ".join(return_str)
 
 
 def is_long_word(word, length=5):
@@ -24,7 +27,7 @@ def is_long_word(word, length=5):
     >>> is_long_word("Python", 6)
     True
     """
-    return len(word) > length
+    return len(word) >= length  # changed > to >= to fix function PD 24/10/2016
 
 
 def run_tests():
@@ -45,12 +48,14 @@ def run_tests():
     # Note that Car's __init__ function sets the fuel in one of two ways: using the value passed in or the default
     # You should test both of these
     test_car = Car(fuel=10)
+    assert test_car.fuel > 0, "Car car has no fuel"
+    assert test_car.fuel == 10, "Car does not set fuel correctly"
 
 
 run_tests()
 
 # TODO: 3. Uncomment the following line and run the doctests
-# doctest.testmod()
+doctest.testmod()
 
 # TODO: 4. Fix the failing is_long_word function (don't change the tests, but the function!)
 
@@ -61,3 +66,4 @@ run_tests()
 # 'It is an ex parrot.' -> 'It is an ex parrot.'
 # and one more you decide (that's valid!)
 # then write the body of the function so that the tests pass
+

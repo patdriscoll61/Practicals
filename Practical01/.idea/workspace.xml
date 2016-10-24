@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="185012d0-1988-4913-a451-1d93abc56b19" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical06/shoppingList.kv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical07/pyramid.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical07/pyramidRecursion.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical12/recursion.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical12/testing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical12/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practical12/wiki.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practical06/box_layout.kv" afterPath="$PROJECT_DIR$/Practical06/box_layout.kv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practical12/testing.py" afterPath="$PROJECT_DIR$/Practical12/testing.py" />
     </list>
     <ignored path="Practical01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +24,12 @@
     <SUITE FILE_PATH="coverage/Practical01$passwordChecker.coverage" NAME="passwordChecker Coverage Results" MODIFIED="1470611926477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$Format01.coverage" NAME="Format01 Coverage Results" MODIFIED="1470106964879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$asciiTable.coverage" NAME="asciiTable Coverage Results" MODIFIED="1470613426105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
-    <SUITE FILE_PATH="coverage/Practical01$pyramidRecursion.coverage" NAME="pyramidRecursion Coverage Results" MODIFIED="1477275061521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07" />
+    <SUITE FILE_PATH="coverage/Practical01$pyramidRecursion.coverage" NAME="pyramidRecursion Coverage Results" MODIFIED="1477275635908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07" />
     <SUITE FILE_PATH="coverage/Practical01$box_layout_demo.coverage" NAME="box_layout_demo Coverage Results" MODIFIED="1476358654561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
     <SUITE FILE_PATH="coverage/Practical01$test_taxi.coverage" NAME="test_taxi Coverage Results" MODIFIED="1474482554763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical08" />
     <SUITE FILE_PATH="coverage/Practical01$readName.coverage" NAME="readName Coverage Results" MODIFIED="1470585082645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$testExceptions.coverage" NAME="testExceptions Coverage Results" MODIFIED="1470583705023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
+    <SUITE FILE_PATH="coverage/Practical01$Doctests_in_testing__1_.coverage" NAME="Doctests in testing (1) Coverage Results" MODIFIED="1477277170456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical12" />
     <SUITE FILE_PATH="coverage/Practical01$drivingSimulator__1_.coverage" NAME="drivingSimulator (1) Coverage Results" MODIFIED="1473906756891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07Ext" />
     <SUITE FILE_PATH="coverage/Practical01$taskTwo.coverage" NAME="taskTwo Coverage Results" MODIFIED="1470097466436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Workshop02" />
     <SUITE FILE_PATH="coverage/Practical01$squaring.coverage" NAME="squaring Coverage Results" MODIFIED="1473031417756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
@@ -52,7 +50,9 @@
     <SUITE FILE_PATH="coverage/Practical01$milesToKm_3.coverage" NAME="milesToKm_3 Coverage Results" MODIFIED="1476358365285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06" />
     <SUITE FILE_PATH="coverage/Practical01$loops.coverage" NAME="loops Coverage Results" MODIFIED="1470005915497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practical01$cleanupFiles_V2.coverage" NAME="cleanupFiles_V2 Coverage Results" MODIFIED="1476328382023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical10" />
+    <SUITE FILE_PATH="coverage/Practical01$wiki.coverage" NAME="wiki Coverage Results" MODIFIED="1477288965280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical12" />
     <SUITE FILE_PATH="coverage/Practical01$guitar_file_reader_2.coverage" NAME="guitar_file_reader_2 Coverage Results" MODIFIED="1474520251981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical08Ext" />
+    <SUITE FILE_PATH="coverage/Practical01$Doctests_in_testing.coverage" NAME="Doctests in testing Coverage Results" MODIFIED="1477281986317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical12" />
     <SUITE FILE_PATH="coverage/Practical01$numbers2.coverage" NAME="numbers2 Coverage Results" MODIFIED="1470611611419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$dynamic_widgets.coverage" NAME="dynamic_widgets Coverage Results" MODIFIED="1472985844420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical06/KyviDemos" />
     <SUITE FILE_PATH="coverage/Practical01$test_unreliable_car.coverage" NAME="test_unreliable_car Coverage Results" MODIFIED="1474481050279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical08" />
@@ -67,6 +67,7 @@
     <SUITE FILE_PATH="coverage/Practical01$saveName.coverage" NAME="saveName Coverage Results" MODIFIED="1470585067982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$aascratch.coverage" NAME="aascratch Coverage Results" MODIFIED="1470026055406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Practical01$salesBonusWithLoop.coverage" NAME="salesBonusWithLoop Coverage Results" MODIFIED="1470006438021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Practical01$test.coverage" NAME="test Coverage Results" MODIFIED="1477278768700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical12" />
     <SUITE FILE_PATH="coverage/Practical01$taskOne.coverage" NAME="taskOne Coverage Results" MODIFIED="1470096648303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Workshop02" />
     <SUITE FILE_PATH="coverage/Practical01$exceptionsCompleted.coverage" NAME="exceptionsCompleted Coverage Results" MODIFIED="1470584525386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$usertaco.coverage" NAME="usertaco Coverage Results" MODIFIED="1473982032747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07Ext" />
@@ -75,6 +76,7 @@
     <SUITE FILE_PATH="coverage/Practical01$stockPriceSimulator.coverage" NAME="stockPriceSimulator Coverage Results" MODIFIED="1470615401371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical02" />
     <SUITE FILE_PATH="coverage/Practical01$guitar_file_reader.coverage" NAME="guitar_file_reader Coverage Results" MODIFIED="1474519045454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical08Ext" />
     <SUITE FILE_PATH="coverage/Practical01$pyramid.coverage" NAME="pyramid Coverage Results" MODIFIED="1477274897817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical07" />
+    <SUITE FILE_PATH="coverage/Practical01$Doctests_in_testing__2_.coverage" NAME="Doctests in testing (2) Coverage Results" MODIFIED="1477278164576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practical12" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -98,11 +100,21 @@
       <file leaf-file-name="testing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical12/testing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="-391">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#71#85#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wiki.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Practical12/wiki.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="18" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,7 +139,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyramidRecursion.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pyramidRecursion.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practical07/pyramidRecursion.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
@@ -157,8 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Practical02/passwordChecker.py" />
-        <option value="$PROJECT_DIR$/Practical02/passwordGenerator.py" />
         <option value="$PROJECT_DIR$/Practical06/box_layout.kv" />
         <option value="$PROJECT_DIR$/Practical06/box_layout_demo.py" />
         <option value="$PROJECT_DIR$/Practical06/squaring.kv" />
@@ -203,11 +213,13 @@
         <option value="$PROJECT_DIR$/Practical10/cleanupFilesTake2.py" />
         <option value="$PROJECT_DIR$/Practical10/cleanupFiles.py" />
         <option value="$PROJECT_DIR$/Practical06/shoppingList.kv" />
-        <option value="$PROJECT_DIR$/Practical12/testing.py" />
         <option value="$PROJECT_DIR$/Practical12/recursion.py" />
         <option value="$PROJECT_DIR$/Practical07/pyramid_recursion.py" />
         <option value="$PROJECT_DIR$/Practical07/pyramid.py" />
         <option value="$PROJECT_DIR$/Practical07/pyramidRecursion.py" />
+        <option value="$PROJECT_DIR$/Practical12/test.py" />
+        <option value="$PROJECT_DIR$/Practical12/testing.py" />
+        <option value="$PROJECT_DIR$/Practical12/wiki.py" />
       </list>
     </option>
   </component>
@@ -336,6 +348,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -349,44 +363,68 @@
       <recent name="C:\data\JCU\CP5632\PycharmProjects\Workshops\Practical01\Practical07Ext" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pyramidRecursion">
-    <configuration default="false" name="box_layout_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.wiki">
+    <configuration default="false" name="Doctests in testing" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Practical01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/box_layout_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical12/testing.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="listLabels" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Doctests in testing (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Practical01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical06/listLabels.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical12/testing.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Doctests in testing (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practical01" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical12/testing.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -399,43 +437,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Practical01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical12/recursion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical12/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="pyramid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="wiki" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Practical01" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical07/pyramid.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="pyramidRecursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practical07" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Practical01" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical07/pyramidRecursion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practical12/wiki.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -649,19 +669,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.box_layout_demo" />
-      <item index="1" class="java.lang.String" itemvalue="Python.listLabels" />
-      <item index="2" class="java.lang.String" itemvalue="Python.recursion" />
-      <item index="3" class="java.lang.String" itemvalue="Python.pyramid" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pyramidRecursion" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in testing" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in testing (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in testing (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.wiki" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.pyramidRecursion" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pyramid" />
-        <item index="2" class="java.lang.String" itemvalue="Python.recursion" />
-        <item index="3" class="java.lang.String" itemvalue="Python.listLabels" />
-        <item index="4" class="java.lang.String" itemvalue="Python.box_layout_demo" />
+        <item index="0" class="java.lang.String" itemvalue="Python.wiki" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in testing" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in testing (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in testing (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -875,8 +895,47 @@
       <option name="project" value="LOCAL" />
       <updated>1476328427144</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Perform recursion exercises">
+      <created>1477275103441</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1477275103441</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in_testing - 2016.10.24 at 13h 17m 51s.xml">
+      <configuration name="Doctests in testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_testing - 2016.10.24 at 13h 18m 09s.xml">
+      <configuration name="Doctests in testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_testing - 2016.10.24 at 13h 20m 11s.xml">
+      <configuration name="Doctests in testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_testing - 2016.10.24 at 13h 20m 21s.xml">
+      <configuration name="Doctests in testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_testing - 2016.10.24 at 13h 20m 37s.xml">
+      <configuration name="Doctests in testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_testing - 2016.10.24 at 13h 20m 49s.xml">
+      <configuration name="Doctests in testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_testing - 2016.10.24 at 13h 21m 02s.xml">
+      <configuration name="Doctests in testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_testing - 2016.10.24 at 13h 21m 24s.xml">
+      <configuration name="Doctests in testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_testing - 2016.10.24 at 13h 22m 14s.xml">
+      <configuration name="Doctests in testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_testing - 2016.10.24 at 14h 06m 26s.xml">
+      <configuration name="Doctests in testing" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -889,19 +948,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1365" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31034482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.497318" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.50574714" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49425286" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5042146" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.497318" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32982457" sideWeight="0.502682" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.49578544" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.4927203" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -965,7 +1024,8 @@
     <MESSAGE value="Implement frojm Scratch Example Version 1" />
     <MESSAGE value="Impelent from Scratch Version 1 and Version 2" />
     <MESSAGE value="Finish Tute" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Tute" />
+    <MESSAGE value="Perform recursion exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Perform recursion exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -979,26 +1039,17 @@
           <line>25</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Practical12/wiki.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Practical08/test_silver_service_taxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practical03/gopherPopulationSimulator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practical03/oddName.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1311,13 +1362,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical12/testing.py">
+    <entry file="file://$PROJECT_DIR$/Practical07/pyramid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#71#85#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical07/pyramidRecursion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical12/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,14 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practical07/pyramid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1345,10 +1402,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practical07/pyramidRecursion.py">
+    <entry file="file://$PROJECT_DIR$/Practical12/testing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="-391">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#71#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practical12/wiki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="18" selection-end-column="50" />
           <folding />
         </state>
       </provider>
